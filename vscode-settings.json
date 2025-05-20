@@ -1,0 +1,28 @@
+{
+    "workbench.iconTheme": "vscode-icons",
+  "[javascriptreact]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "editor.formatOnSave": true,
+  "terminal.integrated.sendKeybindingsToShell": true,
+  "workbench.editor.enablePreview": false,
+  "editor.wordWrap": "on",
+
+  "[jsonc]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[javascript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[typescript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "editor.minimap.enabled": false,
+ 
+  "liveServer.settings.donotShowInfoMsg": true,
+  
+  "[typescriptreact]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  }
+  
+}
