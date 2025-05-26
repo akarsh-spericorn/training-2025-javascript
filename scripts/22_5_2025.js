@@ -43,8 +43,18 @@
 // }
 
 // WHILE LOOP
-let number = prompt('Enter a number greater than 10:');
+// let number = prompt('Enter a number greater than 10:');
 
-while (number <= 10) {
-  number = prompt('Too small! Enter a number greater than 10:');
-}
+// while (number <= 10) {
+//   number = prompt('Too small! Enter a number greater than 10:');
+// }
+
+// DO WHILE LOOP
+
+// let number;
+
+// do {
+//   number = prompt('Enter a number greater than 10:');
+// } while (number <= 10);
+
+// console.log('You entered:', number);
