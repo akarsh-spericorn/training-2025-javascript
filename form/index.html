@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Styled Form</title>
+    <link rel="stylesheet" href="main.css" />
+  </head>
+  <body>
+    <div class="form-container">
+      <form>
+        <div class="form-group">
+          <label for="name">Name</label>
+          <input type="text" name="name" />
+        </div>
+
+        <div class="form-group">
+          <label for="dropdown">Select an option</label>
+          <select id="dropdown" name="dropdown">
+            <option value="">-- Please choose --</option>
+            <option value="option1">Option 1</option>
+            <option value="option2">Option 2</option>
+            <option value="option3">Option 3</option>
+          </select>
+        </div>
+        <div class="form-group">
+          <label>Choose one</label>
+          <div class="radio-group">
+            <label><input type="radio" name="radio" value="A" /> A</label>
+            <label><input type="radio" name="radio" value="B" /> B</label>
+            <label><input type="radio" name="radio" value="C" /> C</label>
+          </div>
+        </div>
+        <button type="submit">Submit</button>
+      </form>
+    </div>
+    <script>
+      const form = document.querySelector('form');
+
+      const addError = (parent, errorText) => {
+        const p = document.createElement('p');
+        p.style.color = 'red';
+        p.textContent = errorText;
+        p.classList.add('error');
+
+        parent.appendChild(p);
+      };
+
+      form.addEventListener('submit', (e) => {
+        e.preventDefault();
+        const errortags = document.querySelectorAll('.error');
+        errortags.forEach((e) => e.remove());
+        console.log(form.name.value);
+
+        const firstName = form.name.value;
+        if (!firstName.trim()) {
+          addError(form.name.parentElement, 'Should nt be empty');
+        } else if (!/^[a-z]{4,6}$/.test(firstName.trim())) {
+          addError(
+            form.name.parentElement,
+            'fuirstname should include atleast 4 to 6 and should be small case',
+          );
+        } else {
+        }
+      });
+    </script>
+  </body>
+</html>

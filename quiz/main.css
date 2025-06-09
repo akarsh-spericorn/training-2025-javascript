@@ -1,0 +1,48 @@
+      body {
+        font-family: Arial, sans-serif;
+        margin: 40px;
+        background: #f9f9f9;
+      }
+      .score-section {
+        background: #e3f2fd;
+        padding: 20px;
+        border-radius: 8px;
+        margin-bottom: 30px;
+        text-align: center;
+        font-size: 1.5em;
+        color: #1565c0;
+      }
+      .quiz-form {
+        background: #fff;
+        padding: 30px;
+        border-radius: 8px;
+        box-shadow: 0 2px 8px rgba(0, 0, 0, 0.07);
+        max-width: 600px;
+        margin: 0 auto;
+      }
+      .question-block {
+        margin-bottom: 25px;
+      }
+      .question-title {
+        margin-bottom: 10px;
+        font-weight: bold;
+      }
+      .options label {
+        display: block;
+        margin-bottom: 5px;
+        cursor: pointer;
+      }
+      .submit-btn {
+        background: #1976d2;
+        color: #fff;
+        border: none;
+        padding: 12px 24px;
+        border-radius: 4px;
+        font-size: 1em;
+        cursor: pointer;
+      }
+      .submit-btn:disabled {
+        background: #90caf9;
+        cursor: not-allowed;
+      }
+   

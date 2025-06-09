@@ -1,0 +1,250 @@
+Fresher_Training_Topics
+
+======================================May 20
+
+-	vscode
+-	packages
+		prettier
+		live server
+-	vscode Settings
+-	git set up
+-	folder set up
+-	prettierrc
+
+
+-	Adding javascript to a web page
+-	the browser consoles
+-	variables, constants and comments
+		let
+		console.log
+		const
+		var
+		naming convention
+		reserverd keyword
+			https://www.w3schools.com/js/js_reserved.asp
+		comments
+-	Data type at a glance
+		number, string, boolean, null, undefined, object , symbol
+-	Strings
+		declare 
+		concatenation (+)
+		getting characters fullname[0]
+		length str.length
+
+		methods
+			r = .toUppercase
+			
+
+
+-	COmmon string method
+		.lastIndexOF
+		.indexOf("@")
+			.slice(1,5)
+			.substr(0,10)
+			.replace("m","n")
+
+-	Number
+		// math operator **, %
+		BIDMAS
+
+		like++
+		likes +=10
+
+		NaN 5/hello
+
+		string + number
+
+
+-	Template strings
+		create  html temnplate
+
+-	Arryas
+		[1]
+		random data type arrays
+		.length
+		.join(",")
+		.indexOf("h")
+		a.concat(b)
+		.push()
+		.pop()
+
+
+-	Null and Undefined
+		Null - variable has no value
+		Undefined - variables that not been defined
+
+		null + 3
+		undefined + string
+======================================May 21
+-	Booleans and Comparisons
+		str.includes('@')
+
+		==
+-	Loose vs strict comparison
+
+-	Type Conversion
+
+		'100' + 1
+
+		Number('100')
+		+'100'
+
+		typeof
+
+		String()
+		Boolean(0)
+		Boolean('0')
+======================================May 22
+	-	for loop
+	-	while loop
+			let number = prompt("Enter a number greater than 10:");
+
+			while (number <= 10) {
+			  number = prompt("Too small! Enter a number greater than 10:");
+			}
+
+			The condition number <= 10 is checked before running the loop body.
+
+			If the user initially enters a valid number (e.g., 15), the loop is skipped entirely.
+
+console.log("You entered:", number);
+======================================May 23
+
+	-	do while
+			let number;
+
+			do {
+			  number = prompt("Enter a number greater than 10:");
+			} while (number <= 10);
+
+			console.log("You entered:", number);
+
+			The loop runs at least once, even if the condition is false on the first try.
+
+			Useful when you want the code to execute at least once
+	-	if statement
+	-	else, else if
+	-	logical operator
+			<=, >=,!=, ||, &&
+			password - length, includes @
+
+	-	logical not
+			loggedin = false
+			if(logged in)
+	-	breakj and continues
+
+			break scores[array]
+			continue scores= 0, embarrassed
+	-	switch
+		else if => equalent - more tidy - grade = A
+			default toUppercase	
+
+	-	variables and block scope 
+======================================
+	-	functions
+	-	declaration and expression
+	-	arguments and parameters
+	-	returning values
+	-	arraow function
+
+	-	callback and foreach
+======================================
+	-	Object  at a glance
+	-	Create an object literal
+	-	Adding methods
+	-	:function () {
+
+	}
+	-	name() {
+
+	}
+	-	this global and local keyword
+	-	Objects in arrays
+	-	Math
+		PI
+		E
+		round
+		floor
+		ceil
+		random
+	-	Primitive vs reference
+		-	stack and heap
+		-	pointer
+======================================
+	- interacting with browser
+	-	DOM
+	-	query selector
+	-	query selctor all
+	-	by id, class, tag
+	-	textContent, innerhtml
+	-	getting and setting attributes
+	-	Stylesx
+======================================3/6
+	children
+	Array.from(HTMLcollection)
+	elem.parentElement
+	elem.parentElement.parentElement
+	.nextElementSibling
+	addEventLsner('click')
+		e.target
+
+	e.target.remove
+	document.cretae Element
+		ul.prepend, append
+	eventbibbling
+		e.stopPropagation
+		e.target.tagname
+
+	addEventListner('copy')
+	addEventListner('mousemove')
+		offsetX
+		offsetY
+
+	addEventListner('wheel')
+		pageX
+		pageY
+======================================
+form.addEventListner("submit",e)
+e.preventDetfault
+username.value
+id="username, name-"username => form.username.value
+
+for (let q in correctAnswers) {
+  const selected = form.elements[q].value;
+  if (selected === correctAnswers[q]) score++;
+}
+
+regex101
+
+	^akarsh$ => single word
+	^[a-z]$ => single character
+	^[a-zA-Z]$ => single character
+	^[a-zA-Z]{6,10}$ => word, length between 6 and 8
+	^[a-zA-Z]{6,}$ => > 6
+	^[a-zA-Z0-9]{6,10}$
+	^.{6,10}$ => any character
+
+	pattern.test() => return true / false
+
+	value.search(pattern) => return -1 or match index
+
+	addEventlistner("keyup")
+
+	window object
+		outerwidth
+
+		setTmeout
+
+		scrollTo(0,0)
+
+		setInterval
+		clearInterval
+
+
+
+======================================
+
+
+
+
+
