@@ -14,7 +14,7 @@ Fresher_Training_Topics
 
 -	Adding javascript to a web page
 -	the browser consoles
--	variables, constants and comments
+-	variables constants and comments
 		let
 		console.log
 		const
@@ -24,7 +24,7 @@ Fresher_Training_Topics
 			https://www.w3schools.com/js/js_reserved.asp
 		comments
 -	Data type at a glance
-		number, string, boolean, null, undefined, object , symbol
+		number string boolean null undefined object  symbol
 -	Strings
 		declare 
 		concatenation (+)
@@ -39,12 +39,12 @@ Fresher_Training_Topics
 -	COmmon string method
 		.lastIndexOF
 		.indexOf("@")
-			.slice(1,5)
-			.substr(0,10)
-			.replace("m","n")
+			.slice(15)
+			.substr(010)
+			.replace("m""n")
 
 -	Number
-		// math operator **, %
+		// math operator ** %
 		BIDMAS
 
 		like++
@@ -62,7 +62,7 @@ Fresher_Training_Topics
 		[1]
 		random data type arrays
 		.length
-		.join(",")
+		.join("")
 		.indexOf("h")
 		a.concat(b)
 		.push()
@@ -105,9 +105,9 @@ Fresher_Training_Topics
 
 			The condition number <= 10 is checked before running the loop body.
 
-			If the user initially enters a valid number (e.g., 15), the loop is skipped entirely.
+			If the user initially enters a valid number (e.g. 15) the loop is skipped entirely.
 
-console.log("You entered:", number);
+console.log("You entered:" number);
 ======================================May 23
 
 	-	do while
@@ -117,16 +117,16 @@ console.log("You entered:", number);
 			  number = prompt("Enter a number greater than 10:");
 			} while (number <= 10);
 
-			console.log("You entered:", number);
+			console.log("You entered:" number);
 
-			The loop runs at least once, even if the condition is false on the first try.
+			The loop runs at least once even if the condition is false on the first try.
 
 			Useful when you want the code to execute at least once
 	-	if statement
-	-	else, else if
+	-	else else if
 	-	logical operator
-			<=, >=,!=, ||, &&
-			password - length, includes @
+			<= >=!= || &&
+			password - length includes @
 
 	-	logical not
 			loggedin = false
@@ -134,7 +134,7 @@ console.log("You entered:", number);
 	-	breakj and continues
 
 			break scores[array]
-			continue scores= 0, embarrassed
+			continue scores= 0 embarrassed
 	-	switch
 		else if => equalent - more tidy - grade = A
 			default toUppercase	
@@ -175,8 +175,8 @@ console.log("You entered:", number);
 	-	DOM
 	-	query selector
 	-	query selctor all
-	-	by id, class, tag
-	-	textContent, innerhtml
+	-	by id class tag
+	-	textContent innerhtml
 	-	getting and setting attributes
 	-	Stylesx
 ======================================3/6
@@ -190,7 +190,7 @@ console.log("You entered:", number);
 
 	e.target.remove
 	document.cretae Element
-		ul.prepend, append
+		ul.prepend append
 	eventbibbling
 		e.stopPropagation
 		e.target.tagname
@@ -203,11 +203,11 @@ console.log("You entered:", number);
 	addEventListner('wheel')
 		pageX
 		pageY
-======================================
-form.addEventListner("submit",e)
+======================================4th June
+form.addEventListner("submit"e)
 e.preventDetfault
 username.value
-id="username, name-"username => form.username.value
+id="username name-"username => form.username.value
 
 for (let q in correctAnswers) {
   const selected = form.elements[q].value;
@@ -219,10 +219,10 @@ regex101
 	^akarsh$ => single word
 	^[a-z]$ => single character
 	^[a-zA-Z]$ => single character
-	^[a-zA-Z]{6,10}$ => word, length between 6 and 8
-	^[a-zA-Z]{6,}$ => > 6
-	^[a-zA-Z0-9]{6,10}$
-	^.{6,10}$ => any character
+	^[a-zA-Z]{610}$ => word length between 6 and 8
+	^[a-zA-Z]{6}$ => > 6
+	^[a-zA-Z0-9]{610}$
+	^.{610}$ => any character
 
 	pattern.test() => return true / false
 
@@ -235,12 +235,20 @@ regex101
 
 		setTmeout
 
-		scrollTo(0,0)
+		scrollTo(00)
 
 		setInterval
 		clearInterval
 
 
+
+======================================June 9
+array 
+	filter
+	map
+	reduce
+	sort
+	chaining
 
 ======================================
 
